@@ -12,7 +12,7 @@ node {
 	    stage('Checkout') {
 	    	steps {
                 echo 'In checkout'
-		        git 'https://github.com/vibhortaneja/testjenkins'
+		        checkout scm
             }
 	    }
 
