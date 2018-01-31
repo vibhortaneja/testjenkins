@@ -12,7 +12,7 @@ node {
 	    stage('Checkout') {
 	    	steps {
                 echo 'In checkout'
-		        git url: 'https://github.com/vibhortaneja/testjenkins'
+		        git 'https://github.com/vibhortaneja/testjenkins'
             }
 	    }
 
